@@ -1,0 +1,17 @@
+{
+  "name": "entreprise-ai-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Entreprise AI OS — AI-Powered Enterprise Operations Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run preview",
+    "seed:supabase": "npm --prefix backend run seed:supabase"
+  }
+}
